@@ -3,7 +3,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 # Import pytorch LSTM implementation
-from lstm import LSTM
+from arrayLSTM.lstm import LSTM
 
 class ArrayLSTM(LSTM):
     """Implementation of ArrayLSTM
