@@ -81,7 +81,7 @@ class LSTM(nn.Module):
         # Loop over all timesteps
         for x_ in torch.unbind(x, dim=1):
             # Perform a single forward pass
-            hidden, state = self._forward_single_(x_, hidden, state)
+            hidden, state = self.forward_cell(x_, hidden, state)
             # Append output
             outputs.append(hidden[0].clone())
 
@@ -89,7 +89,7 @@ class LSTM(nn.Module):
         return torch.stack(outputs, dim=1), (hidden, state)
 
 
-    def _forward_single_(self, x, hidden, state):
+    def forward_cell(self, x, hidden, state):
         """Perform a single forward pass through the network.
 
             Parameters

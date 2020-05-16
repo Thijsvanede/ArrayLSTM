@@ -70,7 +70,7 @@ class ArrayLSTM(LSTM):
     #                         Pass through network                         #
     ########################################################################
 
-    def _forward_single_(self, x, hidden, state):
+    def forward_cell(self, x, hidden, state):
         """Perform a single forward pass through the network.
 
             Parameters
