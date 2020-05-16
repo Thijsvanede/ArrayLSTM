@@ -5,6 +5,11 @@ import torch.nn as nn
 class LSTM(nn.Module):
     """LSTM implementation in pytorch
 
+        Note
+        ----
+        This is a `batch_first=True` implementation, hence the `forward()`
+        method expect inputs of `shape=(batch, seq_len, input_size)`.
+
         Attributes
         ----------
         input_size : int
