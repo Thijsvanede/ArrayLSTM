@@ -1,2 +1,2 @@
 from .lstm import LSTM
-from .arrayLSTM import ArrayLSTM
+from .arraylstm import ArrayLSTM
