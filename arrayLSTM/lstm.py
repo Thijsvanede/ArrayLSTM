@@ -71,6 +71,21 @@ class LSTM(nn.Module):
 
                 `state` torch.Tensor of shape (batch, input_size), default=0 vector
                     Tensor containing the cell state
+
+            Returns
+            -------
+            outputs : torch.Tensor of shape=(batch, seq_len, hidden_size)
+                Outputs for each input of sequence
+
+            hidden : tuple
+                Tuple consisting of (hidden, state) of final output.
+
+                `hidden` torch.Tensor of shape (batch, output)
+                    Tensor containing the hidden state
+
+                `state` torch.Tensor of shape (batch, output)
+                    Tensor containing the cell state
+
             """
         # Initialise hidden state if necessary
         hidden, state = hidden or self.initHidden(x)
