@@ -4,6 +4,16 @@ Pytorch implementation of [Recurrent Memory Array Structures](https://arxiv.org/
 ## Documentation
 We provide an extensive documentation including installation instructions and reference at [array-lstm.readthedocs.io](https://array-lstm.readthedocs.io/en/latest)
 
+
+Note, currently the readthedocs is not online. The docs are available from the `/docs` directory.
+Build them by executing
+```
+make build
+```
+from the `/docs` directory.
+The documentation can then be found under `/docs/build/html/index.html`.
+
+
 ## References
 [1] `TODO`
 
