@@ -6,8 +6,17 @@ The most straigtforward way of installing ArrayLSTM is via pip
 
   pip install array-lstm
 
+From source
+^^^^^^^^^^^
+
 If you wish to stay up to date with the latest development version, you can instead download the `source code`_.
 In this case, make sure that you have all the required `dependencies`_ installed.
+
+Once the dependencies have been installed, run:
+
+.. code::
+
+  pip install -e <path/to/directory/containing/arraylstm/setup.py>
 
 .. _source code: https://github.com/Thijsvanede/ArrayLSTM
 
