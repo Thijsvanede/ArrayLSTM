@@ -10,7 +10,7 @@ It is shown that the nondeterministic Array-LSTM approach improves state-of-the-
 Furthermore, this report estabilishes baseline neural-based results of 1.12 BPC and 1.19 BPC for enwik9 and enwik10 datasets respectively.
 
 ## Documentation
-We provide an extensive documentation including installation instructions and reference at [array-lstm.readthedocs.io](https://array-lstm.readthedocs.io/en/latest)
+We provide an extensive documentation including installation instructions and reference at [arraylstm.readthedocs.io](https://arraylstm.readthedocs.io/en/latest)
 
 ## References
 [1] `van Ede, T., Aghakhani, H., Spahn, N., Bortolameotti, R., Cova, M., Continella, A., van Steen, M., Peter, A., Kruegel, C. & Vigna, G. (2022, May). DeepCASE: Semi-Supervised Contextual Analysis of Security Events. In 2022 Proceedings of the IEEE Symposium on Security and Privacy (S&P). IEEE.`
